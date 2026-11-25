@@ -8,8 +8,8 @@
 
 *Unifying SSH Terminal, Multi-Hop Bastion Automation, Live Kubernetes Log Diagnostics, Built-In System Monitor, Command Blocks, AI Ops Copilot, SQL & Redis Data Studio, Native Windows RDP / Cross-Platform VNC Desktop, Zero-Root Userspace VPN, SFTP/Pod File Transfer, and End-to-End Encrypted Cloud Sync in one fast native desktop app*
 
-[![Release](https://img.shields.io/badge/Release-v0.6.0-F59E0B?style=flat-square)](https://github.com/CoolwjSoft/wuji-term/releases/tag/v0.6.0)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/CoolwjSoft/wuji-term/releases/latest)
+[![Release](https://img.shields.io/badge/Release-v0.6.0-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.0)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
 [![Experience](https://img.shields.io/badge/Experience-Native%20Speed%20%7C%20Fluid%20Rendering-10B981?style=flat-square)](#why-wujiterm)
 [![Security](https://img.shields.io/badge/Security-OS%20Keychain%20%7C%20Local%20Encrypted%20Vault-6366F1?style=flat-square)](#9-enterprise-security-audit--encrypted-sync)
 [![License](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](#license)
@@ -276,13 +276,13 @@ Alongside the desktop app, WujiTerm includes an AI-friendly declarative CLI (cha
 
 ## Download & Installation
 
-Latest Release: **`v0.6.0`** — download installers from [GitHub Releases (`v0.6.0`)](https://github.com/CoolwjSoft/wuji-term/releases/tag/v0.6.0) or directly from the repository folder [releases/v0.6.0](releases/v0.6.0):
+Latest Release: **`v0.6.0`** — download installers from [GitHub Releases (`v0.6.0`)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.0) or directly from the repository folder [releases/v0.6.0](releases/v0.6.0):
 
 | Platform & Architecture | Package | Size | GitHub Release | Repo Direct |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS Universal** (Apple Silicon M1/M2/M3/M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.0-macos-universal.dmg` | 31.6 MB | [Download](https://github.com/CoolwjSoft/wuji-term/releases/download/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg) | [Direct](releases/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg) |
-| **Windows 10 / 11 (`x86_64`)** Portable Desktop App | `WujiTerm-windows-x86_64.zip` | 10.7 MB | [Download](https://github.com/CoolwjSoft/wuji-term/releases/download/v0.6.0/WujiTerm-windows-x86_64.zip) | [Direct](releases/v0.6.0/WujiTerm-windows-x86_64.zip) |
-| **Windows 10 / 11 (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.1 MB | [Download](https://github.com/CoolwjSoft/wuji-term/releases/download/v0.6.0/WujiTerm-cli-tools-windows-x86_64.zip) | [Direct](releases/v0.6.0/WujiTerm-cli-tools-windows-x86_64.zip) |
+| **macOS Universal** (Apple Silicon M1/M2/M3/M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.0-macos-universal.dmg` | 31.6 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg) | [Direct](releases/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg) |
+| **Windows 10 / 11 (`x86_64`)** Portable Desktop App | `WujiTerm-windows-x86_64.zip` | 10.7 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.0/WujiTerm-windows-x86_64.zip) | [Direct](releases/v0.6.0/WujiTerm-windows-x86_64.zip) |
+| **Windows 10 / 11 (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.1 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.0/WujiTerm-cli-tools-windows-x86_64.zip) | [Direct](releases/v0.6.0/WujiTerm-cli-tools-windows-x86_64.zip) |
 
 ### Installation Notes
 - **macOS (Universal — Apple Silicon M1/M2/M3/M4 & Intel)**:
@@ -295,7 +295,7 @@ Latest Release: **`v0.6.0`** — download installers from [GitHub Releases (`v0.
   - `WujiTerm-windows-x86_64.zip`: `975fa92af6c79fdad532699022fba2495dd6fd0d853bdaf861ae1b6bf3c78010`
   - `WujiTerm-cli-tools-windows-x86_64.zip`: `9b9dda477c9207e382a3d2f92b1ce1b5a0c6f2254446d7f315a0a83aa56c9622`
 - **Built-In Auto-Update Feed**:
-  - Point **Settings → Updates** to `https://raw.githubusercontent.com/CoolwjSoft/wuji-term/main/releases/latest.json` (or `https://api.github.com/repos/CoolwjSoft/wuji-term/releases/latest`).
+  - Point **Settings → Updates** to `https://raw.githubusercontent.com/smxj1314/wuji-term/main/releases/latest.json` (or `https://api.github.com/repos/smxj1314/wuji-term/releases/latest`).
 
 ---
 
