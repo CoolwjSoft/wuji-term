@@ -1,15 +1,19 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.2",
   "pub_date": "2026-11-25",
-  "notes": "WujiTerm v0.6.0 正式发布：\n1. 新增原生内嵌 Windows RDP (3389)、跨平台 VNC (5900+)、WinRM 加密终端与双向文件传输（剪贴板/拖拽 + \\\\tsclient\\\\WujiShare 共享盘）\n2. 新增免管理员权限纯用户态 L2TP & L2TP/IPSec VPN 隧道、全屏实时工作台、本地 SOCKS5 代理与全资产一键穿透\n3. 新增 SQL Server (MSSQL 1433) 数据工作台与查询结果 CSV/JSON 导出\n4. 新增内置实时系统监控抽屉（可视化 htop + 零依赖终端内置 htop）、系统状态栏/托盘图标与 27 项可视化快捷键自定义",
+  "notes": "WujiTerm v0.6.2 正式发布：\n1. 新增 Linux (x86_64) 原生桌面版与 CLI/同步服务端发行包（含 .desktop 入口与一键 install.sh）\n2. 折叠/展开状态持久化至 config.toml，重启或同步后自动恢复\n3. 修复 Windows 托盘菜单构建并完善自动更新与多端构建流程",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg",
-      "sha256": "2d7d656dc5c740d39285baaea42fa98c8c2b1d829ffbe9ec6a844dc76b1bf6fc"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-0.6.2-macos-universal.dmg",
+      "sha256": "0397f2b91ab7216b879bd6c9679a9eafb55a0c7a803a59fef62c9d3cbbe1c6f2"
+    },
+    "linux-x86_64": {
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "5057212845d643a66281fce2be4199af6278c84568d928a780cebc9251529019"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.0/WujiTerm-windows-x86_64.zip",
-      "sha256": "975fa92af6c79fdad532699022fba2495dd6fd0d853bdaf861ae1b6bf3c78010"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-windows-x86_64.zip",
+      "sha256": "f021202e862cd5270b982da861bc04f9b07b446ab154d326e0c7faa246e87792"
     }
   }
 }
