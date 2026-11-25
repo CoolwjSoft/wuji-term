@@ -1,0 +1,71 @@
+name: Publish Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to publish (e.g. v0.6.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish GitHub Release with packaged installers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="${{ inputs.tag }}"
+          else
+            TAG="${GITHUB_REF_NAME}"
+          fi
+
+          REL_DIR="releases/${TAG}"
+          if [ ! -d "${REL_DIR}" ]; then
+            echo "Release asset directory ${REL_DIR} not found!"
+            exit 1
+          fi
+
+          NOTES_FILE="${REL_DIR}/RELEASE_NOTES.md"
+          FILES=()
+          for f in "${REL_DIR}"/*; do
+            base="$(basename "$f")"
+            if [ "$base" = "RELEASE_NOTES.md" ]; then
+              continue
+            fi
+            if [ -f "$f" ]; then
+              FILES+=("$f")
+            fi
+          done
+
+          if [ "${#FILES[@]}" -eq 0 ]; then
+            echo "No release assets found in ${REL_DIR}!"
+            exit 1
+          fi
+
+          if gh release view "${TAG}" >/dev/null 2>&1; then
+            echo "Updating existing release ${TAG}..."
+            if [ -f "${NOTES_FILE}" ]; then
+              gh release edit "${TAG}" --title "WujiTerm ${TAG}" --notes-file "${NOTES_FILE}" --latest
+            fi
+            gh release upload "${TAG}" "${FILES[@]}" --clobber
+          else
+            echo "Creating release ${TAG}..."
+            if [ -f "${NOTES_FILE}" ]; then
+              gh release create "${TAG}" "${FILES[@]}" --title "WujiTerm ${TAG}" --notes-file "${NOTES_FILE}" --latest
+            else
+              gh release create "${TAG}" "${FILES[@]}" --title "WujiTerm ${TAG}" --generate-notes --latest
+            fi
+          fi

@@ -1,0 +1,15 @@
+{
+  "version": "0.6.0",
+  "pub_date": "2026-11-25",
+  "notes": "WujiTerm v0.6.0 正式发布：\n1. 新增原生内嵌 Windows RDP (3389)、跨平台 VNC (5900+)、WinRM 加密终端与双向文件传输（剪贴板/拖拽 + \\\\tsclient\\\\WujiShare 共享盘）\n2. 新增免管理员权限纯用户态 L2TP & L2TP/IPSec VPN 隧道、全屏实时工作台、本地 SOCKS5 代理与全资产一键穿透\n3. 新增 SQL Server (MSSQL 1433) 数据工作台与查询结果 CSV/JSON 导出\n4. 新增内置实时系统监控抽屉（可视化 htop + 零依赖终端内置 htop）、系统状态栏/托盘图标与 27 项可视化快捷键自定义",
+  "platforms": {
+    "macos-universal": {
+      "url": "https://github.com/CoolwjSoft/wuji-term/releases/download/v0.6.0/WujiTerm-0.6.0-macos-universal.dmg",
+      "sha256": "2d7d656dc5c740d39285baaea42fa98c8c2b1d829ffbe9ec6a844dc76b1bf6fc"
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/CoolwjSoft/wuji-term/releases/download/v0.6.0/WujiTerm-windows-x86_64.zip",
+      "sha256": "975fa92af6c79fdad532699022fba2495dd6fd0d853bdaf861ae1b6bf3c78010"
+    }
+  }
+}
