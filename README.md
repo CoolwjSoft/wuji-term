@@ -300,7 +300,22 @@
 
 ### 安装指引
 - **macOS（Apple Silicon M1/M2/M3/M4 & Intel 通用包）**：
-  - 下载 `WujiTerm-0.6.1-macos-universal.dmg`，双击打开并将 `WujiTerm.app` 拖入 `Applications` 文件夹即可使用（应用包内已包含 `wuji` CLI 与 `wuji-sync-server`）。
+  - **方式一：使用 `curl` 命令行下载（推荐，可避免浏览器隔离标记导致的拦截）**：
+    ```bash
+    curl -fL -o ~/Downloads/WujiTerm-0.6.1-macos-universal.dmg \
+      https://github.com/smxj1314/wuji-term/releases/download/v0.6.1/WujiTerm-0.6.1-macos-universal.dmg && \
+      open ~/Downloads/WujiTerm-0.6.1-macos-universal.dmg
+    ```
+    执行后会自动下载并打开安装包，将 `WujiTerm.app` 拖入 `Applications` 文件夹即可正常启动（应用包内已包含 `wuji` CLI 与 `wuji-sync-server`）。
+  - **方式二：浏览器下载安装包**：
+    - 下载 `WujiTerm-0.6.1-macos-universal.dmg`，双击打开并将 `WujiTerm.app` 拖入 `Applications` 文件夹。
+  - **macOS 首次打开提示「已损坏」或「无法验证开发者」的解决方法**：
+    - 由于当前 macOS 安装包尚未经过 Apple Developer ID 公证，通过浏览器下载的文件会被系统自动打上隔离标记（`com.apple.quarantine`）。首次打开时可能会被 macOS Gatekeeper 拦截，并提示 **“WujiTerm 已损坏，无法打开，你应该将它移到废纸篓”** 或 **“Apple 无法验证 WujiTerm 是否包含恶意软件 / 无法验证开发者”**（并非安装包损坏）。
+    - 将 `WujiTerm.app` 拖入 `Applications` 文件夹后，在终端执行以下命令清除隔离属性即可正常打开：
+      ```bash
+      xattr -dr com.apple.quarantine /Applications/WujiTerm.app
+      ```
+    - 若仅提示「无法验证开发者」（未提示「已损坏」），也可前往 **系统设置 → 隐私与安全性**，在页面底部点击 **「仍要打开」**。
 - **Windows 10 / 11（`x86_64` 绿色免安装包）**：
   - 桌面端：下载 `WujiTerm-windows-x86_64.zip`，解压至任意固定目录（如 `D:\Apps\WujiTerm`），双击运行 `wujiterm.exe` 即可使用，无需管理员权限；首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可。
   - 命令行与私有同步工具：下载 `WujiTerm-cli-tools-windows-x86_64.zip`（包含 `wuji.exe` 与 `wuji-sync-server.exe`）。

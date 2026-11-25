@@ -286,7 +286,22 @@ Latest Release: **`v0.6.1`** — download installers from [GitHub Releases (`v0.
 
 ### Installation Notes
 - **macOS (Universal — Apple Silicon M1/M2/M3/M4 & Intel)**:
-  - Download `WujiTerm-0.6.1-macos-universal.dmg`, open it, and drag `WujiTerm.app` into `Applications` (bundles `wuji` CLI and `wuji-sync-server` inside the app).
+  - **Option 1: Download via `curl` (Recommended — avoids browser quarantine blocking)**:
+    ```bash
+    curl -fL -o ~/Downloads/WujiTerm-0.6.1-macos-universal.dmg \
+      https://github.com/smxj1314/wuji-term/releases/download/v0.6.1/WujiTerm-0.6.1-macos-universal.dmg && \
+      open ~/Downloads/WujiTerm-0.6.1-macos-universal.dmg
+    ```
+    Once the disk image opens, drag `WujiTerm.app` into `Applications` (bundles `wuji` CLI and `wuji-sync-server` inside the app).
+  - **Option 2: Browser Download**:
+    - Download `WujiTerm-0.6.1-macos-universal.dmg`, open it, and drag `WujiTerm.app` into `Applications`.
+  - **Fixing macOS Gatekeeper Warnings ("Damaged" / "Unidentified Developer")**:
+    - Because the macOS build is currently ad-hoc signed without Apple Developer ID notarization, downloads via web browsers automatically receive the `com.apple.quarantine` attribute. On first launch, macOS Gatekeeper may block the app with **"WujiTerm is damaged and can't be opened. You should move it to the Trash."** or **"Apple could not verify WujiTerm is free of malware / cannot be opened because the developer cannot be verified"** (the package is not actually corrupted).
+    - After dragging `WujiTerm.app` into `Applications`, remove the quarantine attribute in Terminal and launch again:
+      ```bash
+      xattr -dr com.apple.quarantine /Applications/WujiTerm.app
+      ```
+    - If macOS only warns about an unverified developer (rather than saying it is damaged), you can also go to **System Settings → Privacy & Security**, scroll to the bottom, and click **Open Anyway**.
 - **Windows 10 / 11 (`x86_64` Portable)**:
   - Desktop App: Download `WujiTerm-windows-x86_64.zip`, extract to any folder (e.g. `D:\Apps\WujiTerm`), and launch `wujiterm.exe` (no installation or admin privileges required; if SmartScreen appears on first launch, click **More info → Run anyway**).
   - CLI & Private Sync Tools: Download `WujiTerm-cli-tools-windows-x86_64.zip` (`wuji.exe` + `wuji-sync-server.exe`).
