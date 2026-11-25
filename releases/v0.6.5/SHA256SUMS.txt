@@ -1,0 +1,7 @@
+c216273069d41b7a88fc77c601d7882d6fa3154e74b40f64f3f1da9f845ae4aa  WujiTerm-0.6.5-macos-universal.dmg
+6171dc9628bb4233d90b8ec7c02a1bbf8cf7b0ce2e7d42042452c41473c0e797  WujiTerm-linux-x86_64.tar.gz
+e293bd6b0eb24b4a02192a32cf7e2d2e5e13b90a4a39e9116b4d25950b3265af  WujiTerm-cli-tools-linux-x86_64.tar.gz
+acceadb9e82ae6cf2038bdf30e55cb7dfadd2a87aa03a479994ddb12de2a4cb7  WujiTerm-linux-aarch64.tar.gz
+f20415d58766b4904df2d73b6f088009d364eb94072f12d847638d84ce8d6520  WujiTerm-cli-tools-linux-aarch64.tar.gz
+73a1d8598805de43de5bdc91f9c2eefe407c80a771287b3e9c96551511b018bb  WujiTerm-windows-x86_64.zip
+135a8d4b7fa4b86b4bcce0c12b2c31821e16143fbc7d8a77cbacb9fc6c7e2bcc  WujiTerm-cli-tools-windows-x86_64.zip
