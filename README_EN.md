@@ -9,7 +9,7 @@
 *Unifying SSH Terminal, Multi-Hop Bastion Automation, Live Kubernetes Log Diagnostics, Built-In System Monitor, Command Blocks, AI Ops Copilot, SQL & Redis Data Studio, Native Windows RDP / Cross-Platform VNC Desktop, Zero-Root Userspace VPN, SFTP/Pod File Transfer, and End-to-End Encrypted Cloud Sync in one fast native desktop app*
 
 [![Release](https://img.shields.io/badge/Release-v0.6.4-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.4)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%2FARM64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
 [![Experience](https://img.shields.io/badge/Experience-Native%20Speed%20%7C%20Fluid%20Rendering-10B981?style=flat-square)](#why-wujiterm)
 [![Security](https://img.shields.io/badge/Security-OS%20Keychain%20%7C%20Local%20Encrypted%20Vault-6366F1?style=flat-square)](#9-enterprise-security-audit--encrypted-sync)
 [![License](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](#license)
@@ -283,6 +283,8 @@ Latest Release: **`v0.6.4`** — download installers from [GitHub Releases (`v0.
 | **macOS Universal** (Apple Silicon M1/M2/M3/M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.4-macos-universal.dmg` | 31.7 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) | [Direct](releases/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) |
 | **Linux (`x86_64`)** Desktop + CLI + Sync Server | `WujiTerm-linux-x86_64.tar.gz` | 18.4 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-x86_64.tar.gz) | [Direct](releases/v0.6.4/WujiTerm-linux-x86_64.tar.gz) |
 | **Linux (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.6 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [Direct](releases/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** Desktop + CLI + Sync Server | `WujiTerm-linux-aarch64.tar.gz` | 17.5 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-aarch64.tar.gz) | [Direct](releases/v0.6.4/WujiTerm-linux-aarch64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-aarch64.tar.gz` | 5.3 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-linux-aarch64.tar.gz) | [Direct](releases/v0.6.4/WujiTerm-cli-tools-linux-aarch64.tar.gz) |
 | **Windows 10 / 11 (`x86_64`)** Portable Desktop App | `WujiTerm-windows-x86_64.zip` | 11.2 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-windows-x86_64.zip) | [Direct](releases/v0.6.4/WujiTerm-windows-x86_64.zip) |
 | **Windows 10 / 11 (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.5 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) | [Direct](releases/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) |
 
@@ -314,6 +316,8 @@ Latest Release: **`v0.6.4`** — download installers from [GitHub Releases (`v0.
   - `WujiTerm-0.6.4-macos-universal.dmg`: `69c6a550167956310fbd890375deb24109c765da5e3b083bbe6b799b8005200b`
   - `WujiTerm-linux-x86_64.tar.gz`: `3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265`
   - `WujiTerm-cli-tools-linux-x86_64.tar.gz`: `af0e16bbd1ff38cabc0698430afc22a9973ef2b2ab746a2440960e6ebbae912c`
+  - `WujiTerm-linux-aarch64.tar.gz`: `54a21145afad207f0ca7a497d009e91efad3c3ff37d34509196a5c0214aec901`
+  - `WujiTerm-cli-tools-linux-aarch64.tar.gz`: `f46acf7f3b8cc8a3fd6bb803ba109b85b1597b5d72a84ff3f219015e44a6f4a3`
   - `WujiTerm-windows-x86_64.zip`: `0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24`
   - `WujiTerm-cli-tools-windows-x86_64.zip`: `b7b1f210c4719386177878c62273882bee6c90d39598f70014dc3ca216940115`
 

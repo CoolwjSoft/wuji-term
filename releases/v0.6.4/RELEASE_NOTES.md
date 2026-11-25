@@ -15,6 +15,8 @@
 | **macOS Universal** (Apple Silicon M1–M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.4-macos-universal.dmg` | 31.7 MB | `69c6a550167956310fbd890375deb24109c765da5e3b083bbe6b799b8005200b` |
 | **Linux (`x86_64`)** (桌面版 + CLI + 同步服务端) | `WujiTerm-linux-x86_64.tar.gz` | 18.4 MB | `3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265` |
 | **Linux (`x86_64`)** (CLI 与私有同步服务端 / CLI & Sync Server) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.6 MB | `af0e16bbd1ff38cabc0698430afc22a9973ef2b2ab746a2440960e6ebbae912c` |
+| **Linux (`aarch64` / ARM64)** (桌面版 + CLI + 同步服务端) | `WujiTerm-linux-aarch64.tar.gz` | 17.5 MB | `54a21145afad207f0ca7a497d009e91efad3c3ff37d34509196a5c0214aec901` |
+| **Linux (`aarch64` / ARM64)** (CLI 与私有同步服务端 / CLI & Sync Server) | `WujiTerm-cli-tools-linux-aarch64.tar.gz` | 5.3 MB | `f46acf7f3b8cc8a3fd6bb803ba109b85b1597b5d72a84ff3f219015e44a6f4a3` |
 | **Windows 10/11 x86_64** (桌面便携版 / Desktop Portable) | `WujiTerm-windows-x86_64.zip` | 11.2 MB | `0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24` |
 | **Windows 10/11 x86_64** (CLI 与私有同步服务端 / CLI & Sync Server) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.5 MB | `b7b1f210c4719386177878c62273882bee6c90d39598f70014dc3ca216940115` |
 

@@ -9,7 +9,7 @@
 *告别多工具反复切换，一站式整合 SSH 终端、多层堡垒机自动化、K8S 实时日志排障、实时系统监控、命令块状交互、AI 运维副驾驶、SQL & Redis 工作台、Windows RDP / 跨平台 VNC 远程桌面、免权限用户态 VPN、穿透式文件传输与端到端加密多端同步*
 
 [![Release](https://img.shields.io/badge/Release-v0.6.4-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.4)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%2FARM64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
 [![Experience](https://img.shields.io/badge/Experience-原生极速%20%7C%20高帧率流畅-10B981?style=flat-square)](#为什么选择-wujiterm)
 [![Security](https://img.shields.io/badge/Security-系统钥匙串%20%7C%20本地加密保险库-6366F1?style=flat-square)](#九企业级安全审计与加密多端同步)
 [![License](https://img.shields.io/badge/License-MIT-64748B?style=flat-square)](#开源协议)
@@ -297,6 +297,8 @@
 | **macOS Universal**（Apple Silicon M1/M2/M3/M4 & Intel，macOS 13.0+） | `WujiTerm-0.6.4-macos-universal.dmg` | 31.7 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) | [仓库下载](releases/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) |
 | **Linux (`x86_64`)** 桌面版 + CLI + 同步服务端 | `WujiTerm-linux-x86_64.tar.gz` | 18.4 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-linux-x86_64.tar.gz) |
 | **Linux (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.6 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** 桌面版 + CLI + 同步服务端 | `WujiTerm-linux-aarch64.tar.gz` | 17.5 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-aarch64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-linux-aarch64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-aarch64.tar.gz` | 5.3 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-linux-aarch64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-cli-tools-linux-aarch64.tar.gz) |
 | **Windows 10 / 11 (`x86_64`)** 桌面绿色免安装版 | `WujiTerm-windows-x86_64.zip` | 11.2 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-windows-x86_64.zip) | [仓库下载](releases/v0.6.4/WujiTerm-windows-x86_64.zip) |
 | **Windows 10 / 11 (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.5 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) | [仓库下载](releases/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) |
 
@@ -329,6 +331,8 @@
     - `WujiTerm-0.6.4-macos-universal.dmg`：`69c6a550167956310fbd890375deb24109c765da5e3b083bbe6b799b8005200b`
     - `WujiTerm-linux-x86_64.tar.gz`：`3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265`
     - `WujiTerm-cli-tools-linux-x86_64.tar.gz`：`af0e16bbd1ff38cabc0698430afc22a9973ef2b2ab746a2440960e6ebbae912c`
+    - `WujiTerm-linux-aarch64.tar.gz`：`54a21145afad207f0ca7a497d009e91efad3c3ff37d34509196a5c0214aec901`
+    - `WujiTerm-cli-tools-linux-aarch64.tar.gz`：`f46acf7f3b8cc8a3fd6bb803ba109b85b1597b5d72a84ff3f219015e44a6f4a3`
     - `WujiTerm-windows-x86_64.zip`：`0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24`
     - `WujiTerm-cli-tools-windows-x86_64.zip`：`b7b1f210c4719386177878c62273882bee6c90d39598f70014dc3ca216940115`
 

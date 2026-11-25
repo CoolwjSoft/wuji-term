@@ -11,6 +11,10 @@
       "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-x86_64.tar.gz",
       "sha256": "3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265"
     },
+    "linux-aarch64": {
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "54a21145afad207f0ca7a497d009e91efad3c3ff37d34509196a5c0214aec901"
+    },
     "windows-x86_64": {
       "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-windows-x86_64.zip",
       "sha256": "0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24"
