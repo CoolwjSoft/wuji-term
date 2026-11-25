@@ -8,7 +8,7 @@
 
 *告别多工具反复切换，一站式整合 SSH 终端、多层堡垒机自动化、K8S 实时日志排障、实时系统监控、命令块状交互、AI 运维副驾驶、SQL & Redis 工作台、Windows RDP / 跨平台 VNC 远程桌面、免权限用户态 VPN、穿透式文件传输与端到端加密多端同步*
 
-[![Release](https://img.shields.io/badge/Release-v0.6.2-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.2)
+[![Release](https://img.shields.io/badge/Release-v0.6.4-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.4)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
 [![Experience](https://img.shields.io/badge/Experience-原生极速%20%7C%20高帧率流畅-10B981?style=flat-square)](#为什么选择-wujiterm)
 [![Security](https://img.shields.io/badge/Security-系统钥匙串%20%7C%20本地加密保险库-6366F1?style=flat-square)](#九企业级安全审计与加密多端同步)
@@ -290,27 +290,27 @@
 
 ## 下载与安装
 
-当前最新版本：**`v0.6.2`** —— 可直接从 [GitHub Releases (`v0.6.2`)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.2) 或本仓库 [releases/v0.6.2](releases/v0.6.2) 目录下载对应平台的安装包：
+当前最新版本：**`v0.6.4`** —— 可直接从 [GitHub Releases (`v0.6.4`)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.4) 或本仓库 [releases/v0.6.4](releases/v0.6.4) 目录下载对应平台的安装包：
 
 | 平台与架构 | 安装包 | 大小 | Release 直链下载 | 仓库直链下载 |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS Universal**（Apple Silicon M1/M2/M3/M4 & Intel，macOS 13.0+） | `WujiTerm-0.6.2-macos-universal.dmg` | 31.6 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-0.6.2-macos-universal.dmg) | [仓库下载](releases/v0.6.2/WujiTerm-0.6.2-macos-universal.dmg) |
-| **Linux (`x86_64`)** 桌面版 + CLI + 同步服务端 | `WujiTerm-linux-x86_64.tar.gz` | 18.4 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.2/WujiTerm-linux-x86_64.tar.gz) |
-| **Linux (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.6 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.2/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
-| **Windows 10 / 11 (`x86_64`)** 桌面绿色免安装版 | `WujiTerm-windows-x86_64.zip` | 11.1 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-windows-x86_64.zip) | [仓库下载](releases/v0.6.2/WujiTerm-windows-x86_64.zip) |
-| **Windows 10 / 11 (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.5 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-cli-tools-windows-x86_64.zip) | [仓库下载](releases/v0.6.2/WujiTerm-cli-tools-windows-x86_64.zip) |
+| **macOS Universal**（Apple Silicon M1/M2/M3/M4 & Intel，macOS 13.0+） | `WujiTerm-0.6.4-macos-universal.dmg` | 31.7 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) | [仓库下载](releases/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg) |
+| **Linux (`x86_64`)** 桌面版 + CLI + 同步服务端 | `WujiTerm-linux-x86_64.tar.gz` | 18.4 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-linux-x86_64.tar.gz) |
+| **Linux (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.6 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [仓库下载](releases/v0.6.4/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
+| **Windows 10 / 11 (`x86_64`)** 桌面绿色免安装版 | `WujiTerm-windows-x86_64.zip` | 11.2 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-windows-x86_64.zip) | [仓库下载](releases/v0.6.4/WujiTerm-windows-x86_64.zip) |
+| **Windows 10 / 11 (`x86_64`)** 命令行与私有同步工具 (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.5 MB | [Release 下载](https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) | [仓库下载](releases/v0.6.4/WujiTerm-cli-tools-windows-x86_64.zip) |
 
 ### 安装指引
 - **macOS（Apple Silicon M1/M2/M3/M4 & Intel 通用包）**：
   - **方式一：使用 `curl` 命令行下载（推荐，可避免浏览器隔离标记导致的拦截）**：
     ```bash
-    curl -fL -o ~/Downloads/WujiTerm-0.6.2-macos-universal.dmg \
-      https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-0.6.2-macos-universal.dmg && \
-      open ~/Downloads/WujiTerm-0.6.2-macos-universal.dmg
+    curl -fL -o ~/Downloads/WujiTerm-0.6.4-macos-universal.dmg \
+      https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg && \
+      open ~/Downloads/WujiTerm-0.6.4-macos-universal.dmg
     ```
     执行后会自动下载并打开安装包，将 `WujiTerm.app` 拖入 `Applications` 文件夹即可正常启动（应用包内已包含 `wuji` CLI 与 `wuji-sync-server`）。
   - **方式二：浏览器下载安装包**：
-    - 下载 `WujiTerm-0.6.2-macos-universal.dmg`，双击打开并将 `WujiTerm.app` 拖入 `Applications` 文件夹。
+    - 下载 `WujiTerm-0.6.4-macos-universal.dmg`，双击打开并将 `WujiTerm.app` 拖入 `Applications` 文件夹。
   - **macOS 首次打开提示「已损坏」或「无法验证开发者」的解决方法**：
     - 由于当前 macOS 安装包尚未经过 Apple Developer ID 公证，通过浏览器下载的文件会被系统自动打上隔离标记（`com.apple.quarantine`）。首次打开时可能会被 macOS Gatekeeper 拦截，并提示 **“WujiTerm 已损坏，无法打开，你应该将它移到废纸篓”** 或 **“Apple 无法验证 WujiTerm 是否包含恶意软件 / 无法验证开发者”**（并非安装包损坏）。
     - 将 `WujiTerm.app` 拖入 `Applications` 文件夹后，在终端执行以下命令清除隔离属性即可正常打开：
@@ -325,12 +325,12 @@
   - 桌面端：下载 `WujiTerm-windows-x86_64.zip`，解压至任意固定目录（如 `D:\Apps\WujiTerm`），双击运行 `wujiterm.exe` 即可使用，无需管理员权限；首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可。
   - 命令行与私有同步工具：下载 `WujiTerm-cli-tools-windows-x86_64.zip`（包含 `wuji.exe` 与 `wuji-sync-server.exe`）。
 - **完整性校验（SHA-256）**：
-  - 完整校验文件见 [SHA256SUMS.txt](releases/v0.6.2/SHA256SUMS.txt)：
-    - `WujiTerm-0.6.2-macos-universal.dmg`：`0397f2b91ab7216b879bd6c9679a9eafb55a0c7a803a59fef62c9d3cbbe1c6f2`
-    - `WujiTerm-linux-x86_64.tar.gz`：`5057212845d643a66281fce2be4199af6278c84568d928a780cebc9251529019`
-    - `WujiTerm-cli-tools-linux-x86_64.tar.gz`：`9e13be5fd6daa62eb780ff1b91e1e7589f26fdbab5e97c330`
-    - `WujiTerm-windows-x86_64.zip`：`f021202e862cd5270b982da861bc04f9b07b446ab154d326e0c7faa246e87792`
-    - `WujiTerm-cli-tools-windows-x86_64.zip`：`509d84abfaf15a9664fe12b0087e8cb7231cb082bfe4f79decb0b79b1f083179`
+  - 完整校验文件见 [SHA256SUMS.txt](releases/v0.6.4/SHA256SUMS.txt)：
+    - `WujiTerm-0.6.4-macos-universal.dmg`：`69c6a550167956310fbd890375deb24109c765da5e3b083bbe6b799b8005200b`
+    - `WujiTerm-linux-x86_64.tar.gz`：`3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265`
+    - `WujiTerm-cli-tools-linux-x86_64.tar.gz`：`af0e16bbd1ff38cabc0698430afc22a9973ef2b2ab746a2440960e6ebbae912c`
+    - `WujiTerm-windows-x86_64.zip`：`0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24`
+    - `WujiTerm-cli-tools-windows-x86_64.zip`：`b7b1f210c4719386177878c62273882bee6c90d39598f70014dc3ca216940115`
 
 ---
 

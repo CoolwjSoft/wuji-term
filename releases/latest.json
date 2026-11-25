@@ -1,19 +1,19 @@
 {
-  "version": "0.6.2",
+  "version": "0.6.4",
   "pub_date": "2026-11-25",
-  "notes": "WujiTerm v0.6.2 正式发布：\n1. 新增 Linux (x86_64) 原生桌面版与 CLI/同步服务端发行包（含 .desktop 入口与一键 install.sh）\n2. 折叠/展开状态持久化至 config.toml，重启或同步后自动恢复\n3. 修复 Windows 托盘菜单构建并完善自动更新与多端构建流程",
+  "notes": "WujiTerm v0.6.4 正式发布：\n1. 新增主机库安全锁与安全策略增强（Vault Security）\n2. 修复使用 GitHub Releases API 更新源时误将 Release 元数据当作安装包下载的问题\n3. 完整支持 macOS Universal、Linux (x86_64) 与 Windows (x86_64) 三端自动更新与安装",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-0.6.2-macos-universal.dmg",
-      "sha256": "0397f2b91ab7216b879bd6c9679a9eafb55a0c7a803a59fef62c9d3cbbe1c6f2"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-0.6.4-macos-universal.dmg",
+      "sha256": "69c6a550167956310fbd890375deb24109c765da5e3b083bbe6b799b8005200b"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "5057212845d643a66281fce2be4199af6278c84568d928a780cebc9251529019"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "3b988601bee94cb0321b27c78ac1d4cc86feb109cd619efbe897d24ee3dab265"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.2/WujiTerm-windows-x86_64.zip",
-      "sha256": "f021202e862cd5270b982da861bc04f9b07b446ab154d326e0c7faa246e87792"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.4/WujiTerm-windows-x86_64.zip",
+      "sha256": "0972380f578b539dee11ec0fb494ced4682ae5ceb7b7eef25e0da240fdb75a24"
     }
   }
 }
