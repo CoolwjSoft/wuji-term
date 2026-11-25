@@ -324,8 +324,6 @@
     - `WujiTerm-0.6.1-macos-universal.dmg`：`7bca5b17db1ddae18488d47505c8ec6987018da43073db274fb7c827b5748698`
     - `WujiTerm-windows-x86_64.zip`：`46891e3a12d32433a3a9a2f50bdd456892c6d9af4560234271fa9b4d94240402`
     - `WujiTerm-cli-tools-windows-x86_64.zip`：`5b3e5db233e7baa7115002161c482ff9870f2e0bf4174f33d26dc2366cdab5c1`
-- **应用内自动更新源**：
-  - 在客户端「设置中心 → 检查更新」中可配置更新源为 `https://raw.githubusercontent.com/smxj1314/wuji-term/main/releases/latest.json`（或 GitHub Releases API `https://api.github.com/repos/smxj1314/wuji-term/releases/latest`）。
 
 ---
 
