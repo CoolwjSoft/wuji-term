@@ -1,23 +1,23 @@
 {
-  "version": "0.6.10",
+  "version": "0.6.11",
   "pub_date": "2026-11-26",
-  "notes": "## WujiTerm v0.6.10 正式发布\n\n### 修复与优化\n- 自动升级安装完成并进入等待重启状态后，右上角更新提示徽标自动切换为「**重启切换新版本**」，点击即可直接重启切换至新版本\n- 若此前手动关闭过新版本提示徽标，升级就绪后会自动重新展示重启提示\n\n### 平台支持\n- 支持 `macOS Universal`（Apple Silicon / Intel）、`Linux (x86_64 / ARM64)` 与 `Windows (x86_64)` 全平台自动更新与 SHA-256 校验",
+  "notes": "## WujiTerm v0.6.11 正式发布\n\n### 新特性与优化\n- 后台更新检查改为**启动 3 分钟后首次静默检查**，之后**每隔 4 小时**定时检查一次，零轮询、不影响启动速度与日常使用\n- 更新检查策略新增「**不检查更新**」选项（`NeverCheck`），选择后不再主动后台检查，仅响应手动检查\n\n### 平台支持\n- 支持 `macOS Universal`（Apple Silicon / Intel）、`Linux (x86_64 / ARM64)` 与 `Windows (x86_64)` 全平台自动更新与 SHA-256 校验",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.10/WujiTerm-0.6.10-macos-universal.dmg",
-      "sha256": "6c4f67657028c9ad153fc4871dc2a80cb8c13261fcfbcee9fc494e0c9f936287"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.11/WujiTerm-0.6.11-macos-universal.dmg",
+      "sha256": "496b4b82961c84d00557ce69cafbd072e54242a6c9455a2b1375135e21db1389"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.10/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "9fa6c8bd6c2b6a04aea01f3c83329240714c7d9a3ee45ff1b166455a12ac6302"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.11/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "f324693b9df3ef9e14f838c081efddb7d29c4677fceb7310c12c3e3fab5477f0"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.10/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "0e2ef63653be5879b1541a55948c03ad402f1618857400ac4c19027c528227e3"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.11/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "e525dd11e2b77bb162f5fe30e7fb6daf63c31ec7963d0094d45ee661813e7869"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.10/WujiTerm-windows-x86_64.zip",
-      "sha256": "5194207d1871a92da20417e935f39ce8d7f12b983a750831952db729f8f7dba5"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.11/WujiTerm-windows-x86_64.zip",
+      "sha256": "d3f735fa8b54bf721e5b9b41c2712eb251d4d9bb802c8035e01bd9fe2fcaaa47"
     }
   }
 }
