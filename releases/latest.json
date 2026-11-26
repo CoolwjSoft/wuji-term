@@ -1,23 +1,23 @@
 {
-  "version": "0.6.7",
+  "version": "0.6.8",
   "pub_date": "2026-11-26",
-  "notes": "WujiTerm v0.6.7 正式发布：\n1. 自动更新页面「版本新增功能说明」升级为 Markdown 富文本渲染（支持标题、粗体、行内代码、列表、引用块、代码块与表格）\n2. 完整支持 macOS Universal、Linux (x86_64 / ARM64) 与 Windows (x86_64) 全平台自动更新与安装",
+  "notes": "## WujiTerm v0.6.8 正式发布\n\n### 修复与优化\n- 修复「**自动下载并升级**」和「**检查并自动下载**」策略在手动点击 **立即检查更新** 或在设置页切换更新策略后未立即触发下载/升级的问题\n- 修复下载完成后切换策略未自动进入升级流程的边界情况\n\n### 平台支持\n- 支持 `macOS Universal`（Apple Silicon / Intel）、`Linux (x86_64 / ARM64)` 与 `Windows (x86_64)` 全平台自动更新与 SHA-256 校验",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-0.6.7-macos-universal.dmg",
-      "sha256": "e4796c7670d9e1b9bd45ee4defe77dc49c0b0b017a7f24a566bc0aa3ca9ca92d"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.8/WujiTerm-0.6.8-macos-universal.dmg",
+      "sha256": "4bf79b0bc5613c269cef6ab289a4b42136930b0da8e64bf64c7f724e2ddb0374"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "d3438976b6f9701f6a18ed3aed4b140de35f4b01f80be131fe907b31bc698792"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.8/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "3ebb55a896bece8b759b188030be0f9e6b276ae47740cdfca3d0fcc360b04e20"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "9a9cf3ba885a406c465d3f51552ade02e7c4f29064b30b43e1a5913fb564f7e3"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.8/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "b9a2b1d91d0cf100dd8ba768aab3a70bb71805354a5303f95af23da2fe9f9e65"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-windows-x86_64.zip",
-      "sha256": "7c72d08605b36fa37c27eeecf9866083773a611baca95fac69642a460b998f52"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.8/WujiTerm-windows-x86_64.zip",
+      "sha256": "3215e58cbade40fdc4604fc1964a6cdb01b1f25fbe29d2de8ef80fd5bd71d72a"
     }
   }
 }
