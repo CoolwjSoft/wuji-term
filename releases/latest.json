@@ -1,23 +1,23 @@
 {
-  "version": "0.6.12",
+  "version": "0.6.13",
   "pub_date": "2026-11-26",
-  "notes": "## WujiTerm v0.6.12 正式发布\n\n### 自动更新体验全面升级\n- **4 档更新检查策略**：新增「**不检查更新**」「**仅检查提示**」「**检查并下载**（默认）」「**自动下载并升级**」，并修复手动检查及切换策略后未立即触发下载/升级的问题\n- **延迟与定时后台检查**：改为应用启动 **3 分钟后**首次静默检查，之后**每隔 4 小时**检查一次，零轮询开销，不影响启动速度与日常使用\n- **下载实时进度条**：更新包采用流式分块下载，界面实时展示下载进度条、已下载/总大小与百分比\n- **Markdown 更新说明**：版本新增功能说明支持 Markdown 富文本渲染（标题、列表、粗体、行内代码、代码块、引用与表格），并自动过滤校验哈希等冗余信息，仅展示更新内容\n- **顶栏一键重启切换**：自动升级就绪后，右上角提示徽标自动切换为「**重启切换新版本**」，点击即可直接重启生效\n\n### 平台与 AI 能力增强\n- **Linux ARM64 (`aarch64`) 支持**：新增 Linux ARM64 桌面端、CLI 与同步服务端构建及自动更新支持\n- **安全锁与本地大模型目录**：新增应用安全锁功能，并支持云端本地大模型清单同步与多系列动态模型目录",
+  "notes": "## WujiTerm v0.6.13 正式发布\n\n### 窗口与快捷入口优化\n- 优化「快速新建本地终端」调用体验：支持将快捷启动参数转发至运行中的单实例并自动取消最小化唤起主窗口\n\n### 自动更新体验全面升级\n- **4 档更新检查策略**：支持「**不检查更新**」「**仅检查提示**」「**检查并下载**（默认）」「**自动下载并升级**」\n- **延迟与定时后台检查**：启动 **3 分钟后**首次静默检查，之后**每隔 4 小时**检查一次，零轮询开销\n- **下载实时进度条**：流式分块下载，实时展示进度条、已下载/总大小与百分比\n- **Markdown 更新说明**：富文本渲染更新内容，自动过滤校验哈希等冗余信息\n- **顶栏一键重启切换**：自动升级就绪后右上角提示自动切换为「**重启切换新版本**」",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.12/WujiTerm-0.6.12-macos-universal.dmg",
-      "sha256": "dc714b5a42e196b6683c1b842ae59edc37bf5f2268dbf64b3752644fa3d6e600"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.13/WujiTerm-0.6.13-macos-universal.dmg",
+      "sha256": "9c25ef05417abcbaef8dcdac6af60aa5811fc9157f5c7bb2c62a97a1b1a5d02d"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.12/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "8f8c8bb1ae0f43cf02b696d2153077da186f02300811c059a5fe73117da19081"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.13/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "6f441e2f8f4da572a567db1480482786b0442206d2b98747d7ddf9548d54c48b"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.12/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "7b1b957ff7893ca1c663d3bd8453b3cdef9616fdbeb10ada3a4c66b08d505292"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.13/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "4357ec427e4324f64c2d20a312a2a2e794b1d60ad75592521258027191428ebd"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.12/WujiTerm-windows-x86_64.zip",
-      "sha256": "1a9610edf2dc6a06430b9f288722b55eb5f0f0b175e42c7b989a144bb7fc1c47"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.13/WujiTerm-windows-x86_64.zip",
+      "sha256": "a21cefa3c68494ce4516c75ab8fc2bd892a716b8743cedafd980a940d7c8c493"
     }
   }
 }
