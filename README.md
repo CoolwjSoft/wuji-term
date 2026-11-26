@@ -16,7 +16,7 @@
 
 **简体中文** | **[English](README_EN.md)**
 
-[产品亮点](#为什么选择-wujiterm) · [界面一览](#界面一览) · [全量功能详解](#全量核心功能与特色详解) · [快捷键速查](#常用快捷键速查) · [命令行工具](#十wuji-命令行工具与私有化同步) · [下载安装](#下载与安装)
+[产品亮点](#为什么选择-wujiterm) · [16 款终端对比](#对标市面-16-款主流付费与免费终端横向对比矩阵) · [界面一览](#界面一览) · [全量功能详解](#全量核心功能与特色详解) · [快捷键速查](#常用快捷键速查) · [命令行工具](#十wuji-命令行工具与私有化同步) · [下载安装](#下载与安装)
 
 </div>
 
@@ -39,6 +39,36 @@
 | **企业内网 VPN 接入** | 系统 VPN 劫持全局路由、影响日常上网、需管理员权限 | **免管理员权限纯用户态 L2TP / IPSec VPN + 本地 SOCKS5 代理 + 全资产一键按需穿透** |
 | **AI 运维协同** | 复制报错切网页问 AI，易泄露 Token / 生产数据 | **内置多模型 AI 副驾驶**，报错自动感知、发送前自动脱敏、自然语言直出 Shell 命令 |
 | **安全与多端同步** | 明文配置或强绑定第三方云账号 | **系统钥匙串 / 本地加密保险库 + 生产高危防火墙 + 多云/自建加密同步** |
+
+---
+
+## 对标市面 16 款主流付费与免费终端横向对比矩阵
+
+> 图例：`✅` 原生内置完整支持 · `⚠️` 部分支持（需付费版本 / 插件 / 仅支持基础子集） · `—` 暂不支持或非产品定位
+
+| 终端 / 运维工具 | 授权与收费 | 支持平台 | 渲染与架构 | 主机库 & 跳板机/K8S 自动化 | 日志排障 / Blocks / 监控 | SFTP & 穿透容器直传 | RDP / VNC / WinRM | SQL & Redis 工作台 | 免权限用户态 VPN | AI 副驾驶 & 加密多端同步 |
+| :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **WujiTerm（无极终端）** | **免费开源（MIT）** | **macOS / Win / Linux** | **原生 GPU（零 WebView）** | **✅ 跳板机继承 + K8S 优选 Pod** | **✅ 日志过滤 / 8格式化 / Diff / Blocks / `htop`** | **✅ SFTP + 穿透容器直传 (`rz/sz`)** | **✅ RDP（含共享盘）+ VNC + WinRM** | **✅ MySQL / PG / MSSQL / CK / Redis** | **✅ L2TP / IPSec + SOCKS5 按需穿透** | **✅ 多模型脱敏 AI + 多后端 E2EE 同步** |
+| **Termius** | 商业订阅（付费解锁同步/SFTP/AI） | macOS / Win / Linux / 移动 | Electron | ⚠️ 主机库 + 基础 Snippet | — | ⚠️ SFTP（付费） | — | — | — | ⚠️ 绑定官方云同步 & 付费 AI |
+| **Xshell + Xftp** | 商业付费（个人家庭有限免费） | 仅 Windows | 原生 Win32 | ⚠️ 会话管理 + 脚本自动化 | ⚠️ 基础高亮 | ⚠️ 需搭配独立 Xftp | — | — | — | — |
+| **SecureCRT** | 商业付费（买断 / 订阅） | macOS / Win / Linux | 原生 C++ / Qt | ⚠️ 会话管理 + 脚本自动化 | ⚠️ 关键字高亮 | ⚠️ 基础 SFTP 标签 | — | — | — | — |
+| **MobaXterm** | 商业付费（免费版限 12 会话） | 仅 Windows | 原生 Win32 | ⚠️ 会话管理 + 宏 | ⚠️ 关键字高亮 | ✅ 内置 SFTP | ⚠️ RDP / VNC（无 WinRM） | — | — | — |
+| **FinalShell** | 免费 / 高级版付费 | macOS / Win / Linux | Java（内存占用较高） | ⚠️ 主机库 + 基础跳转 | ⚠️ 系统资源监控 | ✅ 内置 SFTP | ⚠️ 仅高级版 RDP | — | — | ⚠️ 付费官方云同步 |
+| **Royal TS / TSX** | 商业付费（免费版限 10 连接） | macOS / Win | 原生（插件架构） | ⚠️ 资产管理 | — | ⚠️ 需插件 | ✅ RDP / VNC（插件） | — | — | ⚠️ 依赖第三方网盘文档 |
+| **Warp** | 免费 / Pro 商业订阅 | macOS / Win / Linux | 原生 GPU | — | ⚠️ Blocks（无日志过滤/监控） | — | — | — | — | ⚠️ 付费 AI + 账号云同步 |
+| **WindTerm** | 免费闭源（商用受限） | macOS / Win / Linux | 原生 C++ / Qt | ⚠️ 会话库 + 基础自动补全 | ⚠️ 基础资源监控 | ✅ SFTP / Zmodem | — | — | — | — |
+| **Tabby** | 免费开源（MIT） | macOS / Win / Linux | Electron | ⚠️ 主机库 + 插件扩展 | — | ✅ SFTP / Zmodem | — | — | — | ⚠️ 需第三方同步插件 |
+| **Electerm** | 免费开源（MIT） | macOS / Win / Linux | Electron | ⚠️ 书签 + 基础快速命令 | — | ✅ SFTP / Zmodem | ⚠️ 基础 RDP / VNC | — | — | ⚠️ 基础 AI + Gist 同步 |
+| **iTerm2** | 免费开源（GPL） | 仅 macOS | 原生 Metal | ⚠️ Profiles + Triggers | ⚠️ Triggers / 搜索 | ⚠️ 需外挂 Shell 集成 | — | — | — | ⚠️ 可选 AI 插件 |
+| **Ghostty** | 免费开源（MIT） | macOS / Linux | 原生 GPU（极致性能） | — | — | — | — | — | — | — |
+| **WezTerm** | 免费开源（MIT） | macOS / Win / Linux | 原生 GPU | ⚠️ Lua 配置 SSH / Mux | — | — | — | — | — | — |
+| **Alacritty** | 免费开源（Apache-2.0） | macOS / Win / Linux | 原生 GPU（极致轻量） | — | — | — | — | — | — | — |
+| **Kitty** | 免费开源（GPL） | macOS / Linux | 原生 GPU | ⚠️ Kitten 扩展 | — | ⚠️ `transfer` Kitten | — | — | — | — |
+| **Windows Terminal** | 免费开源（MIT） | 仅 Windows | 原生 DirectX GPU | ⚠️ 基础 JSON Profiles | — | — | — | — | — | — |
+
+> **选型速览**：
+> - **对比 Ghostty / WezTerm / Alacritty / Kitty / iTerm2 / Windows Terminal**：WujiTerm 同样坚持**原生 GPU 硬件加速与零 WebView 架构**，并补齐了现代研发运维刚需的跨平台统一主机库、多层堡垒机与 K8S 自动化、排障工作台与多端加密同步。
+> - **对比 Termius / Xshell / SecureCRT / MobaXterm / FinalShell / Royal TS / Tabby / Electerm**：WujiTerm 彻底摆脱 Electron/Java 内存高占与高昂订阅费，在同一原生客户端内打通 **SSH + K8S 日志排障 + 实时监控 + SQL/MSSQL/Redis + 原生 RDP/VNC/WinRM + 免权限用户态 VPN + 多模型脱敏 AI**，一站替代 5–8 个割裂软件。
 
 ---
 

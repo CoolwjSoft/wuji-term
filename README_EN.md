@@ -16,7 +16,7 @@
 
 **[简体中文](README.md)** | **English**
 
-[Why WujiTerm](#why-wujiterm) · [Visual Tour](#visual-tour) · [Full Feature Breakdown](#full-feature-breakdown) · [Shortcuts](#keyboard-shortcuts) · [CLI & Private Sync](#10-wuji-cli--self-hosted-sync-server) · [Installation](#download--installation)
+[Why WujiTerm](#why-wujiterm) · [16-Terminal Comparison](#comparison-with-16-mainstream-paid--free-terminals) · [Visual Tour](#visual-tour) · [Full Feature Breakdown](#full-feature-breakdown) · [Shortcuts](#keyboard-shortcuts) · [CLI & Private Sync](#10-wuji-cli--self-hosted-sync-server) · [Installation](#download--installation)
 
 </div>
 
@@ -39,6 +39,36 @@ During real-world development and production troubleshooting, engineers constant
 | **Corporate Intranet VPN** | OS VPN hijacks global routing, breaks local proxy, needs admin rights | **Zero-Root Userspace L2TP / IPSec VPN + Local SOCKS5 Proxy + On-Demand Per-Host Tunneling** |
 | **AI Ops Assistance** | Copy-pasting stack traces to web chats, risking token leaks | **Built-in Multi-LLM AI Copilot** with auto error detection, pre-send sanitization & NL-to-Shell |
 | **Security & Multi-Device Sync** | Plaintext configs or locked-in proprietary cloud accounts | **OS Keychain / Local Encrypted Vault + Prod Command Guardrail + Multi-Backend E2EE Sync** |
+
+---
+
+## Comparison with 16 Mainstream Paid & Free Terminals
+
+> Legend: `✅` Built-in full native support · `⚠️` Partial support (paid tier / plugin / basic subset) · `—` Not supported or outside product scope
+
+| Terminal / Ops Client | Licensing & Pricing | Platforms | Engine & Architecture | Hosts Vault & Bastion/K8S Auto | Logs / Blocks / Monitor | SFTP & Pod Transfer | RDP / VNC / WinRM | SQL & Redis Studio | Zero-Root Userspace VPN | AI Copilot & E2EE Sync |
+| :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **WujiTerm** | **Free & Open Source (MIT)** | **macOS / Win / Linux** | **Native GPU (Zero WebView)** | **✅ Reusable Jump + Smart K8S Pod** | **✅ Live Filter / 8 Formatters / Diff / Blocks / `htop`** | **✅ SFTP + Bastion-Penetrating Pod (`rz/sz`)** | **✅ RDP (Shared Drive) + VNC + WinRM** | **✅ MySQL / PG / MSSQL / CK / Redis** | **✅ L2TP / IPSec + SOCKS5 Routing** | **✅ Multi-LLM Sanitized AI + Multi-Backend E2EE** |
+| **Termius** | Paid Subscription (sync/SFTP/AI paid) | macOS / Win / Linux / Mobile | Electron | ⚠️ Vault + Basic Snippets | — | ⚠️ SFTP (Paid) | — | — | — | ⚠️ Vendor Cloud Sync & Paid AI |
+| **Xshell + Xftp** | Commercial (limited free home edition) | Windows only | Native Win32 | ⚠️ Sessions + Scripting | ⚠️ Basic Highlight | ⚠️ Separate Xftp App | — | — | — | — |
+| **SecureCRT** | Commercial (perpetual / subscription) | macOS / Win / Linux | Native C++ / Qt | ⚠️ Sessions + Scripting | ⚠️ Keyword Highlight | ⚠️ Basic SFTP Tab | — | — | — | — |
+| **MobaXterm** | Commercial (free tier limited to 12 sessions) | Windows only | Native Win32 | ⚠️ Sessions + Macros | ⚠️ Keyword Highlight | ✅ Built-in SFTP | ⚠️ RDP / VNC (No WinRM) | — | — | — |
+| **FinalShell** | Freemium / Paid Pro | macOS / Win / Linux | Java (Higher RAM) | ⚠️ Vault + Basic Hop | ⚠️ System Monitor | ✅ Built-in SFTP | ⚠️ Paid Pro RDP | — | — | ⚠️ Paid Vendor Cloud Sync |
+| **Royal TS / TSX** | Commercial (free tier limited to 10 connections) | macOS / Win | Native (Plugin-based) | ⚠️ Asset Tree | — | ⚠️ Via Plugin | ✅ RDP / VNC (Plugins) | — | — | ⚠️ External File Sync |
+| **Warp** | Freemium / Pro Subscription | macOS / Win / Linux | Native GPU | — | ⚠️ Blocks (No Log Filter/Monitor) | — | — | — | — | ⚠️ Paid AI + Account Sync |
+| **WindTerm** | Free Closed-Source (commercial restrictions) | macOS / Win / Linux | Native C++ / Qt | ⚠️ Sessions + Autocomplete | ⚠️ Basic Monitor | ✅ SFTP / Zmodem | — | — | — | — |
+| **Tabby** | Free & Open Source (MIT) | macOS / Win / Linux | Electron | ⚠️ Vault + Plugins | — | ✅ SFTP / Zmodem | — | — | — | ⚠️ Third-Party Sync Plugins |
+| **Electerm** | Free & Open Source (MIT) | macOS / Win / Linux | Electron | ⚠️ Bookmarks + Quick Cmds | — | ✅ SFTP / Zmodem | ⚠️ Basic RDP / VNC | — | — | ⚠️ Basic AI + Gist Sync |
+| **iTerm2** | Free & Open Source (GPL) | macOS only | Native Metal | ⚠️ Profiles + Triggers | ⚠️ Triggers / Find | ⚠️ Via Shell Integration | — | — | — | ⚠️ Optional AI Plugin |
+| **Ghostty** | Free & Open Source (MIT) | macOS / Linux | Native GPU (Ultra-Fast) | — | — | — | — | — | — | — |
+| **WezTerm** | Free & Open Source (MIT) | macOS / Win / Linux | Native GPU | ⚠️ Lua SSH / Mux | — | — | — | — | — | — |
+| **Alacritty** | Free & Open Source (Apache-2.0) | macOS / Win / Linux | Native GPU (Minimalist) | — | — | — | — | — | — | — |
+| **Kitty** | Free & Open Source (GPL) | macOS / Linux | Native GPU | ⚠️ Kitten Extensions | — | ⚠️ `transfer` Kitten | — | — | — | — |
+| **Windows Terminal** | Free & Open Source (MIT) | Windows only | Native DirectX GPU | ⚠️ JSON Profiles | — | — | — | — | — | — |
+
+> **At a Glance**:
+> - **vs. Ghostty / WezTerm / Alacritty / Kitty / iTerm2 / Windows Terminal**: WujiTerm delivers the same **native GPU-accelerated, zero-WebView performance**, while adding a full cross-platform Hosts Vault, multi-hop Bastion & K8S automation, SRE diagnostics workbench, and E2EE sync.
+> - **vs. Termius / Xshell / SecureCRT / MobaXterm / FinalShell / Royal TS / Tabby / Electerm**: WujiTerm avoids Electron/Java bloat and recurring paywalls, unifying **SSH + K8S Log Diagnostics + Live System Monitor + SQL/MSSQL/Redis Studio + Native RDP/VNC/WinRM + Zero-Root Userspace VPN + Multi-LLM Sanitized AI** in one native app — replacing 5–8 fragmented tools.
 
 ---
 
