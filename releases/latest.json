@@ -1,23 +1,23 @@
 {
-  "version": "0.6.14",
+  "version": "0.6.15",
   "pub_date": "2026-11-26",
-  "notes": "## WujiTerm v0.6.14 正式发布\n\n### 新增功能\n- **工作台备忘录（Memo Studio）**：新增支持 Markdown 与富文本的备忘录工作台，支持图片粘贴/管理、分类检索与命令面板快捷入口\n\n### 今日全部更新汇总\n- **4 档更新检查策略**：支持「**不检查更新**」「**仅检查提示**」「**检查并下载**（默认）」「**自动下载并升级**」\n- **延迟与定时后台检查**：启动 **3 分钟后**首次静默检查，之后**每隔 4 小时**检查一次，零轮询开销\n- **下载实时进度条**：流式分块下载，实时展示进度条、已下载/总大小与百分比\n- **Markdown 更新说明**：富文本渲染更新内容，自动过滤校验哈希等冗余信息\n- **顶栏一键重启切换**：自动升级就绪后右上角提示自动切换为「**重启切换新版本**」\n- **快速新建本地终端优化**：支持将快捷启动参数转发至运行中的单实例并自动取消最小化唤起主窗口",
+  "notes": "## WujiTerm v0.6.15 正式发布\n\n### 新增功能\n- **备忘录工作台（Memos）**：主机库「服务分类」侧边栏、系统菜单栏与命令面板新增「备忘录」入口，支持主动新建、分类标签、置顶、全文检索、按格式筛选与导出\n- **终端右键收录文本与截图**：终端框选内容右键支持「**添加选中内容至备忘录**」，右键支持「**添加截图至备忘录**」（支持裁剪当前终端窗格或整个窗口、新建或追加至已有备忘录，并支持大图预览与另存）\n- **多文本格式与一键格式化**：内置 **Markdown / 纯文本 / JSON / YAML / XML / SQL / TOML / Shell / 日志** 9 种格式支持，提供自动识别、一键格式化、压缩、JSON 键名排序、SQL 参数代入、Markdown 分栏预览、一键脱敏、Unicode 还原与撤销格式化",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.14/WujiTerm-0.6.14-macos-universal.dmg",
-      "sha256": "81207d81085f84f56da712c7918dd1ca67883b3488349d76270bbd632dd509eb"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.15/WujiTerm-0.6.15-macos-universal.dmg",
+      "sha256": "4be950cfff2561ae1b973d0c556874339a715847bd11f1c26c1755cfb12e0d1a"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.14/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "6203342171ff62262012df9ef40fe994a0afc8f325a44a23d8beea155538d368"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.15/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "31c7f5f9d39b78798a053cf6835e64a5d211495aa3af22f003913f3714c60a23"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.14/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "a72845ec633fb9bf0a3b3f3ab8e82f8b110dd7836108f6469b05f2538e79eeb1"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.15/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "35a6264d0168bf5b895ce0a370dbb6251f5bba5766f593903694a8f348481afb"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.14/WujiTerm-windows-x86_64.zip",
-      "sha256": "4d1ef46769f0a05cf752e7f11ca1ce16fcebea0bd3a52ab43c3112169164c3f2"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.15/WujiTerm-windows-x86_64.zip",
+      "sha256": "9e259c54235b505e3c0804f0b72ab420f9e1343a6e7763ab50df6eb81e98c0af"
     }
   }
 }
