@@ -1,23 +1,23 @@
 {
-  "version": "0.6.6",
+  "version": "0.6.7",
   "pub_date": "2026-11-26",
-  "notes": "WujiTerm v0.6.6 正式发布：\n1. 新增更新检查策略三段式选择（仅检查提示 / 检查并下载 / 自动下载并升级），默认启用「检查并下载」\n2. 完整支持 macOS Universal、Linux (x86_64 / ARM64) 与 Windows (x86_64) 全平台自动更新与安装",
+  "notes": "WujiTerm v0.6.7 正式发布：\n1. 自动更新页面「版本新增功能说明」升级为 Markdown 富文本渲染（支持标题、粗体、行内代码、列表、引用块、代码块与表格）\n2. 完整支持 macOS Universal、Linux (x86_64 / ARM64) 与 Windows (x86_64) 全平台自动更新与安装",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.6/WujiTerm-0.6.6-macos-universal.dmg",
-      "sha256": "457625581985df6cfa6799857486337e0b7b1ed7478497bd37ef0217df625bd0"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-0.6.7-macos-universal.dmg",
+      "sha256": "e4796c7670d9e1b9bd45ee4defe77dc49c0b0b017a7f24a566bc0aa3ca9ca92d"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.6/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "e5f1b3d415b61b890fdb06d6d003036e9496c09322a8f71596bc4a97b3fcd51d"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "d3438976b6f9701f6a18ed3aed4b140de35f4b01f80be131fe907b31bc698792"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.6/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "17e4dd5e4e5fbe3dfb348295c0ecf6106323dddaee8c771a82c8fc811932776b"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "9a9cf3ba885a406c465d3f51552ade02e7c4f29064b30b43e1a5913fb564f7e3"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.6/WujiTerm-windows-x86_64.zip",
-      "sha256": "d52e36bde803d2f3edfe23995e157318a774a4d4003a04fc1c266577188993e1"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.7/WujiTerm-windows-x86_64.zip",
+      "sha256": "7c72d08605b36fa37c27eeecf9866083773a611baca95fac69642a460b998f52"
     }
   }
 }
