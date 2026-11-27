@@ -1,23 +1,23 @@
 {
-  "version": "0.6.16",
+  "version": "0.6.17",
   "pub_date": "2026-11-27",
-  "notes": "## WujiTerm v0.6.16 正式发布\n\n### 优化与改进\n- **备忘录工作台（Memo Studio）优化**：全面升级备忘录编辑、预览与交互体验，完善图片管理、多格式排版与分类检索能力\n\n### 近期核心特性\n- **终端右键快捷收录**：支持框选文本一键添加至备忘录（自动识别 9 种文本格式并支持格式化/脱敏/还原），支持离屏截取终端窗格或应用窗口截图\n- **自动更新体验升级**：支持 4 档更新检查策略（含「不检查更新」）、启动 3 分钟后延迟检查与每 4 小时定时检查、实时下载进度条、Markdown 更新说明及升级就绪后顶栏一键重启切换",
+  "notes": "## WujiTerm v0.6.17 正式发布\n\n### 新增功能：手机扫码远程控制桌面终端\n- **扫码即连 Mobile Web 终端**：桌面端内置离线可用的 Axum HTTP + WebSocket 服务（`xterm.js` + 手机快捷控制栏 + 代码片段抽屉），手机扫码即可实时接管或协同控制桌面终端会话\n- **高危命令安全护栏联动**：手机端输入的命令同样经过桌面端高危命令护栏（`guardrail`）检测拦截\n- **公网无端口映射穿透（WebSocket Relay）**：`wuji-sync-server` 新增 `/api/v1/relay/host` 中继能力，支持 4G/5G 公网环境下免端口转发远程控制\n\n### 今日其他优化\n- **备忘录工作台（Memo Studio）优化**：完善编辑/预览交互、图片管理、多格式排版与分类检索\n- **Windows 工作台优化**：同步优化窗口交互与稳定性",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-0.6.16-macos-universal.dmg",
-      "sha256": "5ff76a05fa30a72379adce0327cc6c7bef59b8b1334efcf3227916edf048314f"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-0.6.17-macos-universal.dmg",
+      "sha256": "3aa4af8ebfa1a748e54885165439cbc8eae1685fb59781218c977d924aaa862d"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "c28e00902fd2790a8a974a226b5f13098f410121bc94341eab559c4c376a6910"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "2a627d1d6ea99f9eb78793f7578d3e9592df435b7a64c6806ecf448caab718ea"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "0ac384d5fb7292344351e0c24ec817985d9c799f2142e8b7b7aa593cafd57ab3"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "269f5f755e3127863fc3a8f5f6855df9d3c3085f6ca63e95e98037585462937d"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-windows-x86_64.zip",
-      "sha256": "c2e26d64c70698b481214317d8b5fd553b6e8f146ced0f2347e707f52fd7f7eb"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-windows-x86_64.zip",
+      "sha256": "9eef10427a194fc93beaeaf4f58241e4a1e6e56c851428e1ad124b842636573b"
     }
   }
 }

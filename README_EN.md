@@ -8,7 +8,7 @@
 
 *Unifying SSH Terminal, Multi-Hop Bastion Automation, Live Kubernetes Log Diagnostics, Built-In System Monitor, Command Blocks, AI Ops Copilot, SQL & Redis Data Studio, Native Windows RDP / Cross-Platform VNC Desktop, Zero-Root Userspace VPN, SFTP/Pod File Transfer, and End-to-End Encrypted Cloud Sync in one fast native desktop app*
 
-[![Release](https://img.shields.io/badge/Release-v0.6.16-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.16)
+[![Release](https://img.shields.io/badge/Release-v0.6.17-F59E0B?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.17)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20Universal%20%7C%20Linux%20x86__64%2FARM64%20%7C%20Windows%20x86__64-0EA5E9?style=flat-square)](https://github.com/smxj1314/wuji-term/releases/latest)
 [![Experience](https://img.shields.io/badge/Experience-Native%20Speed%20%7C%20Fluid%20Rendering-10B981?style=flat-square)](#why-wujiterm)
 [![Security](https://img.shields.io/badge/Security-OS%20Keychain%20%7C%20Local%20Encrypted%20Vault-6366F1?style=flat-square)](#9-enterprise-security-audit--encrypted-sync)
@@ -306,29 +306,29 @@ Alongside the desktop app, WujiTerm includes an AI-friendly declarative CLI (cha
 
 ## Download & Installation
 
-Latest Release: **`v0.6.16`** — download installers from [GitHub Releases (`v0.6.16`)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.16) or directly from the repository folder [releases/v0.6.16](releases/v0.6.16):
+Latest Release: **`v0.6.17`** — download installers from [GitHub Releases (`v0.6.17`)](https://github.com/smxj1314/wuji-term/releases/tag/v0.6.17) or directly from the repository folder [releases/v0.6.17](releases/v0.6.17):
 
 | Platform & Architecture | Package | Size | GitHub Release | Repo Direct |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS Universal** (Apple Silicon M1/M2/M3/M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.16-macos-universal.dmg` | 36 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-0.6.16-macos-universal.dmg) | [Direct](releases/v0.6.16/WujiTerm-0.6.16-macos-universal.dmg) |
-| **Linux (`x86_64`)** Desktop + CLI + Sync Server | `WujiTerm-linux-x86_64.tar.gz` | 21 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-linux-x86_64.tar.gz) | [Direct](releases/v0.6.16/WujiTerm-linux-x86_64.tar.gz) |
-| **Linux (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 5.9 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [Direct](releases/v0.6.16/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
-| **Linux (`aarch64` / ARM64)** Desktop + CLI + Sync Server | `WujiTerm-linux-aarch64.tar.gz` | 20 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-linux-aarch64.tar.gz) | [Direct](releases/v0.6.16/WujiTerm-linux-aarch64.tar.gz) |
-| **Linux (`aarch64` / ARM64)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-aarch64.tar.gz` | 5.5 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-cli-tools-linux-aarch64.tar.gz) | [Direct](releases/v0.6.16/WujiTerm-cli-tools-linux-aarch64.tar.gz) |
-| **Windows 10 / 11 (`x86_64`)** Portable Desktop App | `WujiTerm-windows-x86_64.zip` | 13 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-windows-x86_64.zip) | [Direct](releases/v0.6.16/WujiTerm-windows-x86_64.zip) |
-| **Windows 10 / 11 (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.7 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-cli-tools-windows-x86_64.zip) | [Direct](releases/v0.6.16/WujiTerm-cli-tools-windows-x86_64.zip) |
+| **macOS Universal** (Apple Silicon M1/M2/M3/M4 & Intel, macOS 13.0+) | `WujiTerm-0.6.17-macos-universal.dmg` | 37 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-0.6.17-macos-universal.dmg) | [Direct](releases/v0.6.17/WujiTerm-0.6.17-macos-universal.dmg) |
+| **Linux (`x86_64`)** Desktop + CLI + Sync Server | `WujiTerm-linux-x86_64.tar.gz` | 21 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-x86_64.tar.gz) | [Direct](releases/v0.6.17/WujiTerm-linux-x86_64.tar.gz) |
+| **Linux (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-x86_64.tar.gz` | 6.0 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-cli-tools-linux-x86_64.tar.gz) | [Direct](releases/v0.6.17/WujiTerm-cli-tools-linux-x86_64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** Desktop + CLI + Sync Server | `WujiTerm-linux-aarch64.tar.gz` | 20 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-aarch64.tar.gz) | [Direct](releases/v0.6.17/WujiTerm-linux-aarch64.tar.gz) |
+| **Linux (`aarch64` / ARM64)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-linux-aarch64.tar.gz` | 5.6 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-cli-tools-linux-aarch64.tar.gz) | [Direct](releases/v0.6.17/WujiTerm-cli-tools-linux-aarch64.tar.gz) |
+| **Windows 10 / 11 (`x86_64`)** Portable Desktop App | `WujiTerm-windows-x86_64.zip` | 14 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-windows-x86_64.zip) | [Direct](releases/v0.6.17/WujiTerm-windows-x86_64.zip) |
+| **Windows 10 / 11 (`x86_64`)** CLI & Private Sync Server (`wuji` + `wuji-sync-server`) | `WujiTerm-cli-tools-windows-x86_64.zip` | 5.8 MB | [Download](https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-cli-tools-windows-x86_64.zip) | [Direct](releases/v0.6.17/WujiTerm-cli-tools-windows-x86_64.zip) |
 
 ### Installation Notes
 - **macOS (Universal — Apple Silicon M1/M2/M3/M4 & Intel)**:
   - **Option 1: Download via `curl` (Recommended — avoids browser quarantine blocking)**:
     ```bash
-    curl -fL -o ~/Downloads/WujiTerm-0.6.16-macos-universal.dmg \
-      https://github.com/smxj1314/wuji-term/releases/download/v0.6.16/WujiTerm-0.6.16-macos-universal.dmg && \
-      open ~/Downloads/WujiTerm-0.6.16-macos-universal.dmg
+    curl -fL -o ~/Downloads/WujiTerm-0.6.17-macos-universal.dmg \
+      https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-0.6.17-macos-universal.dmg && \
+      open ~/Downloads/WujiTerm-0.6.17-macos-universal.dmg
     ```
     Once the disk image opens, drag `WujiTerm.app` into `Applications` (bundles `wuji` CLI and `wuji-sync-server` inside the app).
   - **Option 2: Browser Download**:
-    - Download `WujiTerm-0.6.16-macos-universal.dmg`, open it, and drag `WujiTerm.app` into `Applications`.
+    - Download `WujiTerm-0.6.17-macos-universal.dmg`, open it, and drag `WujiTerm.app` into `Applications`.
   - **Fixing macOS Gatekeeper Warnings ("Damaged" / "Unidentified Developer")**:
     - Because the macOS build is currently ad-hoc signed without Apple Developer ID notarization, downloads via web browsers automatically receive the `com.apple.quarantine` attribute. On first launch, macOS Gatekeeper may block the app with **"WujiTerm is damaged and can't be opened. You should move it to the Trash."** or **"Apple could not verify WujiTerm is free of malware / cannot be opened because the developer cannot be verified"** (the package is not actually corrupted).
     - After dragging `WujiTerm.app` into `Applications`, remove the quarantine attribute in Terminal and launch again:
@@ -342,14 +342,14 @@ Latest Release: **`v0.6.16`** — download installers from [GitHub Releases (`v0
 - **Windows 10 / 11 (`x86_64` Portable)**:
   - Desktop App: Download `WujiTerm-windows-x86_64.zip`, extract to any folder (e.g. `D:\Apps\WujiTerm`), and launch `wujiterm.exe` (no installation or admin privileges required; if SmartScreen appears on first launch, click **More info → Run anyway**).
   - CLI & Private Sync Tools: Download `WujiTerm-cli-tools-windows-x86_64.zip` (`wuji.exe` + `wuji-sync-server.exe`).
-- **SHA-256 Checksums** ([SHA256SUMS.txt](releases/v0.6.16/SHA256SUMS.txt)):
-  - `WujiTerm-0.6.16-macos-universal.dmg`: `5ff76a05fa30a72379adce0327cc6c7bef59b8b1334efcf3227916edf048314f`
-  - `WujiTerm-linux-x86_64.tar.gz`: `c28e00902fd2790a8a974a226b5f13098f410121bc94341eab559c4c376a6910`
-  - `WujiTerm-cli-tools-linux-x86_64.tar.gz`: `8f0d66f95e21131ef882aa22f103bd0bdf56a26f067f09a05cffa79a064f1634`
-  - `WujiTerm-linux-aarch64.tar.gz`: `0ac384d5fb7292344351e0c24ec817985d9c799f2142e8b7b7aa593cafd57ab3`
-  - `WujiTerm-cli-tools-linux-aarch64.tar.gz`: `1748252af2e7a0be27a1e0fd68cf678b4c59255cc4340c19b6bf213c2e90c4bc`
-  - `WujiTerm-windows-x86_64.zip`: `c2e26d64c70698b481214317d8b5fd553b6e8f146ced0f2347e707f52fd7f7eb`
-  - `WujiTerm-cli-tools-windows-x86_64.zip`: `9b6c24fac21dee34be8d4b5347f1397ea20d73f45ec07cfae81e774916d0cf54`
+- **SHA-256 Checksums** ([SHA256SUMS.txt](releases/v0.6.17/SHA256SUMS.txt)):
+  - `WujiTerm-0.6.17-macos-universal.dmg`: `3aa4af8ebfa1a748e54885165439cbc8eae1685fb59781218c977d924aaa862d`
+  - `WujiTerm-linux-x86_64.tar.gz`: `2a627d1d6ea99f9eb78793f7578d3e9592df435b7a64c6806ecf448caab718ea`
+  - `WujiTerm-cli-tools-linux-x86_64.tar.gz`: `5fdba4e418bd14e5c465ae5b4d40d14517609f3a37366615996f6a59ba8252a9`
+  - `WujiTerm-linux-aarch64.tar.gz`: `269f5f755e3127863fc3a8f5f6855df9d3c3085f6ca63e95e98037585462937d`
+  - `WujiTerm-cli-tools-linux-aarch64.tar.gz`: `caec79b42aaa1ff6bfd435f01a7abbf157a0f455ee9ca7f64fe2288c8f46c476`
+  - `WujiTerm-windows-x86_64.zip`: `9eef10427a194fc93beaeaf4f58241e4a1e6e56c851428e1ad124b842636573b`
+  - `WujiTerm-cli-tools-windows-x86_64.zip`: `df02a8833e4553d09474fe7fe7a2c7acea254616cfd80c2f793af28057d3b0f2`
 
 ---
 
