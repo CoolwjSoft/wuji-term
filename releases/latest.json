@@ -1,23 +1,23 @@
 {
-  "version": "0.6.17",
-  "pub_date": "2026-11-27",
-  "notes": "## WujiTerm v0.6.17 正式发布\n\n### 新增功能：手机扫码远程控制桌面终端\n- **扫码即连 Mobile Web 终端**：桌面端内置离线可用的 Axum HTTP + WebSocket 服务（`xterm.js` + 手机快捷控制栏 + 代码片段抽屉），手机扫码即可实时接管或协同控制桌面终端会话\n- **高危命令安全护栏联动**：手机端输入的命令同样经过桌面端高危命令护栏（`guardrail`）检测拦截\n- **公网无端口映射穿透（WebSocket Relay）**：`wuji-sync-server` 新增 `/api/v1/relay/host` 中继能力，支持 4G/5G 公网环境下免端口转发远程控制\n\n### 今日其他优化\n- **备忘录工作台（Memo Studio）优化**：完善编辑/预览交互、图片管理、多格式排版与分类检索\n- **Windows 工作台优化**：同步优化窗口交互与稳定性",
+  "version": "0.6.18",
+  "pub_date": "2026-11-28",
+  "notes": "## WujiTerm v0.6.18 正式发布\n\n### 新增功能\n- **远程桌面（WebRTC + H.264）**：新增 `wuji-remote-desktop` 与 WebRTC 桌面串流能力（支持 macOS ScreenCaptureKit、Windows 与 Linux），配备独立桌面端控制界面与 Web 控制端（`desktop.html`），并支持 Cloudflare 信令部署\n- **终端输出代码位置跳转（Code Jump）**：支持 `Cmd/Ctrl + 单击` 终端输出中的文件路径与行列号直接跳转打开\n- **批量粘贴与工具套件（Batch Paste / OTTY Suite）**：新增批量粘贴弹窗与多会话协同效率增强\n\n### 优化与修复\n- **SSH 隧道与 RDP 增强**：优化 `wuji-data` / `wuji-windows` SSH 隧道、RDP 与 ConPTY/VT 终端稳定性，完善安全护栏与会话录制\n- **跨平台构建优化**：修复 Windows 交叉编译 C++/Objective-C 条件编译问题，优化 Linux Docker 容器发布构建内存占用",
   "platforms": {
     "macos-universal": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-0.6.17-macos-universal.dmg",
-      "sha256": "3aa4af8ebfa1a748e54885165439cbc8eae1685fb59781218c977d924aaa862d"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.18/WujiTerm-0.6.18-macos-universal.dmg",
+      "sha256": "051e84c4d9de5d27bfd1a505ab5a18350babfc3e2695b8cd9ce3c9522ba64cb6"
     },
     "linux-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-x86_64.tar.gz",
-      "sha256": "2a627d1d6ea99f9eb78793f7578d3e9592df435b7a64c6806ecf448caab718ea"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.18/WujiTerm-linux-x86_64.tar.gz",
+      "sha256": "ba949ba32472152d891eb3223c32946a060aebafaaea8cb5e8374381b970c893"
     },
     "linux-aarch64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-linux-aarch64.tar.gz",
-      "sha256": "269f5f755e3127863fc3a8f5f6855df9d3c3085f6ca63e95e98037585462937d"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.18/WujiTerm-linux-aarch64.tar.gz",
+      "sha256": "154e5bbdb4ad618d6cc1d1a1305122037d9acf9c9f0fc42b99abedff2324e0f8"
     },
     "windows-x86_64": {
-      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.17/WujiTerm-windows-x86_64.zip",
-      "sha256": "9eef10427a194fc93beaeaf4f58241e4a1e6e56c851428e1ad124b842636573b"
+      "url": "https://github.com/smxj1314/wuji-term/releases/download/v0.6.18/WujiTerm-windows-x86_64.zip",
+      "sha256": "6fd1e21e2a8be997b5273518fdf04ab36ca1e7e38408a382252967f60b221161"
     }
   }
 }
